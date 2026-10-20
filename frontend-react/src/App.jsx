@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import api from "./api";
 import AuthForm from "./AuthForm";
 import "./App.css";
-import ApplyForm from "./Applyform";
+import ApplyForm from "./ApplyForm";
 function App() {
   const [jobs, setJobs] = useState([]);
   const [loadingJobs, setLoadingJobs] = useState(true);
